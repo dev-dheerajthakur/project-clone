@@ -1,0 +1,4 @@
+.notification{
+  height: calc(100dvh - 10px);
+  overflow: auto;
+}

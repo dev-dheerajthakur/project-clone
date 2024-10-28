@@ -1,0 +1,92 @@
+.confirmationBox{
+  margin: auto;
+  overflow: hidden; 
+  width: calc(100dvw - 50px);
+  background: var(--bg-7);
+  padding: 10px;
+}
+.battleMode{
+  font-size: 130%;
+  margin: 7px 0 25px 0;
+}.teamMode{
+  padding: 2px;
+  opacity: 0.9;
+  font-size: 110%;
+  padding-right: 30px;
+}.teamMode span{
+  float: right;
+  font-size: 120%;
+}
+
+
+
+.map{
+  margin: -10px -10px 0 -10px;
+  width: calc(100% + 20px);
+  height: 130px;
+  scale: 1.02;
+  object-fit: cover;
+}
+.submitBtn{
+  letter-spacing: 1px;
+  border: none;
+  padding: 7px 20px;
+  border-radius: 6px;
+  background: #00a8eb;
+  margin: 10px;
+  float: right;
+}
+
+
+
+
+.teamBox{
+  border: 3px solid var(--bg-3);
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}.teamSelector{
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.balanceControllerBox{
+  margin-top: 20px;
+}
+.balanceInfo{
+  /* display: grid;
+  grid-template-columns: 4fr 2fr; */
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px;
+  padding: 0 10px;
+  opacity: 0.8;
+  font-size: 140%;
+}
+.balanceInfo:nth-child(3){
+  border-top: 3px solid gray;
+  padding-top: 10px;
+}
+
+.selectedMemberBox{
+  margin-top: 15px;
+}
+.selectedMember{
+  font-size: 90%;
+  margin-left: 10px;
+  margin-bottom: 7px;
+}
+
+.selectedMemberLengthTemplate{
+  margin-left: 10px;
+  font-size: 80%;
+  color: #039cd8;
+  font-weight: 700;
+}
+
+.disable{
+  opacity: 0.6 !important;
+}

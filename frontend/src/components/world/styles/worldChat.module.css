@@ -1,0 +1,33 @@
+.worldChatBox{
+  /* background: darkblue; */
+  width: calc(100dvw - 30px);
+  height: calc(100dvh - 50px);
+  /* height: 100%; */
+}
+.header{
+  /* position: fixed;
+  top: 0; */
+  display: flex;
+  align-items: center;
+}
+
+.worldTemplate{
+  font-size: 120%;
+  margin-left: 20px;
+}
+.inputBox{
+  position: fixed;
+  bottom: 20px;
+  overflow: scroll;
+  /* position: fixed;
+  bottom: 20px; */
+  width: calc(100dvw - 30px);
+}
+.input{
+  color: var(--color);
+  border: none;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 100px;
+  background-color: var(--bg-5);
+}

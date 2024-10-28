@@ -1,0 +1,143 @@
+.modalContainer {
+    /* background-color: rebeccapurple; */
+    /* height: 80dvh; */
+    color: var(--color);
+}
+
+.modal {
+    position: absolute;
+    margin: auto;
+    z-index: -1;
+    height: 70dvh;
+    border: none;
+    padding: 15px;
+    color: var(--color);
+    border-radius: 10px;
+    width: 100dvw;
+    background: var(--bg-7);
+    background: #0e0e0f;
+}
+.modalContainer dialog:focus {
+    outline: none;
+}
+/* .modalBox{
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100dvh;
+  width: 100dvw;
+  transform: scale(0);
+  transition: all 0.3s;
+  display: grid;
+  place-items: center;
+}
+.modal{
+  z-index: 3;
+  height: 80dvh;
+  padding: 10px;
+  background: var(--bg-7);
+  width: calc(100dvw - 50px);
+} */
+
+
+.openModalBtn {
+    overflow: hidden;
+}
+.openModalBtn img {
+    opacity: 0.8;
+}
+.closeModalBtn {
+    font-size: 150%;
+    opacity: 1;
+    margin-right: 10px;
+    margin-top: -15px;
+}
+.blackFilm {
+    height: 100dvh;
+    width: 100dvw;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background-color: black;
+    opacity: 0.6;
+    /* display: none; */
+}
+
+.selectTeamTemplate {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    /* opacity: 0.8; */
+    justify-content: space-between;
+}
+
+.team {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.teamNameTemplate {
+    margin-bottom: 20px;
+}
+
+.adminTemplates {
+    font-size: 70%;
+    margin-right: 10px;
+    margin-top: 5px;
+    color: #00b7ff;
+}
+
+.members {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.members > div {
+    display: flex;
+}
+.memberProfileSection{
+    width: 60px;
+    display: flex;
+}
+.members .memberProfile {
+    object-fit: cover;
+    border-radius: 100px;
+}
+.members .selectedTemplate{
+    margin-left: -12px;
+    margin-top: 5px;
+}
+
+.memberIdentity {
+    font-size: 80%;
+    margin-left: 15px;
+}
+.memberIdentity > div {
+    font-size: 80%;
+}
+
+.applyBtnBox{
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+}
+.applyBtn{
+    outline: none;
+    border: none;
+    background: #008ac0;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #d9d9d9;
+}
+
+
+.addMemberLink{
+    /* border: 2px solid red; */
+    text-decoration: underline;
+    outline: none;
+    font-size: 70%;
+    color: #007bff;
+}

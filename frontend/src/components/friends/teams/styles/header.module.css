@@ -1,0 +1,17 @@
+.headerBox{
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+.templateBox{
+  display: flex;
+  align-items: flex-end;
+}
+.teamsTemplate{
+  margin-left: 20px;
+}
+
+.teamCreationLink{
+  text-decoration: underline;
+  color: #00b7ff;
+}

@@ -1,0 +1,19 @@
+.footerContainer{
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100dvw;
+  display: flex;
+  z-index: 2;
+  position: fixed;
+  padding-top: 10px;
+  justify-content: space-around;
+  background-color: var(--bg-7);
+}
+.active img{
+  color: rgb(255, 80, 17);
+  /* filter: invert(40%) sepia(76%) saturate(3794%) hue-rotate(346deg) brightness(94%) contrast(122%); */
+  /* filter: brightness(0) saturate(100%) invert(42%) sepia(20%) saturate(3828%) hue-rotate(297deg) brightness(99%) contrast(92%); */
+  /* filter: brightness(0) saturate(100%) invert(98%) sepia(93%) saturate(6965%) hue-rotate(1deg) brightness(99%) contrast(101%); */
+  filter: brightness(0) saturate(100%) invert(93%) sepia(71%) saturate(7476%) hue-rotate(175deg) brightness(110%) contrast(100%);
+}

@@ -1,0 +1,16 @@
+.layout{
+  position: fixed;
+  height: 100dvh;
+  width: 100dvw;
+  left: 0;
+  top: 0;
+  overflow: auto;
+  padding: 10px;
+}
+
+.headerBox{
+  height: 40px;
+}
+.childrens{
+  /* height: calc(100dvh - 60px); */
+}

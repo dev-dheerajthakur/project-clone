@@ -1,0 +1,48 @@
+.header{
+  display: flex;
+  margin: 0 5px;
+  align-items: center;
+}.addTemplate{
+  margin-left: 10px;
+  font-size: 120%;
+}
+.searchInput{
+  border-radius: 100px;
+  color: var(--color);
+  opacity: 0.8;
+  padding: 5px 15px;
+  /* margin: 5px; */
+  /* width: calc(100% - 10px); */
+  width: 100%;
+  background-color: var(--bg-8);
+  border: 2px solid var(--bg-2);
+}.inputContainer{
+  margin: 10px 0;
+  width: 100%;
+}
+
+.userPng{
+  margin-right: 20px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.userContainer{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.userContainer a{
+  display: flex;
+}
+.userName{
+  font-size: 120%;
+}
+.uid{
+  font-size: 80%;
+  opacity: 0.7;
+}
+.addBtn{
+  margin-bottom: 7px;
+  margin-right: 10px;
+}

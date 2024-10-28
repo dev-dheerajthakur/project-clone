@@ -1,0 +1,147 @@
+.battle_card:hover{
+  border: 2px solid var(--bg-1);
+  /* background-color: rgba(255, 255, 255, 0.025); */
+  /* box-shadow: 0 0 7px 0 rgba(255, 255, 255, 0.15); */
+}.battle_card_btn:hover{
+  scale: 1.03;
+  border: 2px solid #ff661a;
+  box-shadow: 0 0 7px 0 rgba(255, 255, 255, 0.4);
+  background: linear-gradient(97deg, #f12f16 0%, #ff5d0c 100%);
+}
+.battle_card{
+  /* max-width: 380px; */
+  border-radius: 10px;
+  border: 2px solid var(--bg-3);
+  /* background-color: var(--bg-7); */
+  background: linear-gradient(90deg, var(--bg-8), var(--bg-6));
+}.battle_card_header{
+  margin: 10px 10px 15px 10px;
+  display: flex;
+  font-size: 105%;
+  font-weight: 600;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.countDown{
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: yellow;
+  /* color: lightskyblue; */
+}
+.battle_card_section_1{
+  padding: 0px;
+  display: flex;
+  margin: 0 15px 10px;
+  justify-content: space-around;
+}.battle_card_img{
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 10px;
+}.battle_card_section_1 img{
+  object-fit: cover;
+  border-radius: 10px;
+}.battle_card_info{
+  display: flex;
+  /* margin: 0 auto; */
+  font-size: 105%;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}.battle_card_info_header{
+  margin-top: -10px;
+  font-size: 107%;
+  letter-spacing: 1.5px;
+}.battle_card_date_section{
+  font-size: 95%;
+}.battle_card_info_organiser{
+  font-size: 60%;
+  letter-spacing: 3.7px;
+}.battle_card_section_2{
+  margin: 0 15px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+.battle_card_winnings{
+  display: flex;
+  font-size: 200%;
+  color: #D9D9D9;
+  align-items: center;
+  justify-content: center;
+}.battle_card_footer{
+  margin: 4px 10px 10px;
+}.battle_card_count{
+  font-size: 70%;
+}.battle_card_outliner{
+  display: flex;
+  align-items: center;
+  height: 4px;
+  margin-top: 3px;
+  border-radius: 20px;
+  background: var(--brand-brand-blue, #31495E);
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.92) inset;
+}.battle_card_outliner_count{
+  height: 3px;
+  width: 60%;
+  border-radius: 20px;
+  background: linear-gradient(97deg, #C92812 0%, #E44B09 100%);
+  background: linear-gradient(97deg, #ec1e02 0%, #ff6422 100%);
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25) inset;
+}
+
+.disable{
+  color: #b5b5b5;
+  border: 2px solid #9e3500 !important;
+  background: linear-gradient(97deg, #75170b 0%, #833007 100%) !important;
+}.disable{
+  box-shadow: none;
+  color: #b5b5b5;
+  border: 2px solid #9e3500 !important;
+  background: linear-gradient(97deg, #75170b 0%, #833007 100%) !important;
+}.disable_light{
+  color: #b5b5b5;
+  border: 2px solid #e14b00;
+  background: linear-gradient(97deg, #ad2311 0%, #b74308 100%);
+}.disable_light:hover{
+  color: #b5b5b5;
+  box-shadow: none;
+  border: 2px solid #e14b00;
+  background: linear-gradient(97deg, #ad2311 0%, #b74308 100%);
+}
+
+
+
+
+
+
+
+.section {
+  background-color: var(--bg-8);
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  flex: 1 1 calc(33.333% - 40px);
+  min-width: 280px;
+  max-width: 400px;
+  margin-bottom: 7px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  color: #ddd;
+}
+
+.section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.roomid{
+  margin-bottom: 5px;
+}
+.roomid, .roompass{
+  font-size: 80%;
+  display: flex;
+}
+.roomInfo span{
+  width: 70px;
+}

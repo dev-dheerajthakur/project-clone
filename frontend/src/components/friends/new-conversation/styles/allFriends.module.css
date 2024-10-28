@@ -1,0 +1,32 @@
+.noFriendTemplate {
+  opacity: 0.6;
+  font-size: 140%;
+  text-align: center;
+  margin-top: 250px;
+}
+
+.friendBox {
+  border-radius: 10px;
+  display: flex;
+  padding: 10px;
+}
+
+.friendsProfile {
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  object-fit: cover;
+  background: #000;
+  border-radius: 100px;
+}
+.names {
+  margin-left: 10px;
+}
+.userName {
+  opacity: 0.9;
+}
+.uid {
+  font-size: 90%;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}

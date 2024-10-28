@@ -1,0 +1,13 @@
+.options{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+.optionBtn{
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 1px solid #2c4053;
+}
+.optionBtn:nth-child(1){
+  background: #2c4053;
+}

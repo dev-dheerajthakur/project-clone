@@ -1,0 +1,23 @@
+.allChat{
+  overflow: scroll;
+  height: calc(100dvh - 130px);
+  display: grid;
+  place-items: center;
+}
+.newConversationTemplate{
+  font-size: 170%;
+  opacity: 0.6;
+  text-align: center;
+  /* margin-top: 250px; */
+}
+.newChatBox{
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  z-index: 1;
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  background-color: var(--bg-4);
+  display: inline-block;
+}

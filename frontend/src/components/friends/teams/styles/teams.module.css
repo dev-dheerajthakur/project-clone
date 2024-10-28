@@ -1,0 +1,46 @@
+.teams{
+  margin-top: 20px;
+}
+.createTeamTemplate{
+  opacity: 0.5;
+  font-size: 200%;
+  text-align: center;
+  margin: 300px auto;
+}
+
+.teamAvatarContainer{
+  text-align: center;
+}
+.teamAvatar, .avatar{
+  margin: auto;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+
+.teamMembersContainer{
+  margin-top: 30px;
+}
+.teamMembers{
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.teamMembers span{
+  display: flex;
+}
+.memberInfo{
+  font-size: 80%;
+  margin-left: 15px;
+}
+.memberFFUid{
+  opacity: 0.7;
+  font-size: 80%;
+}
+
+.adminTemplate{
+  color: #00b7ff;
+  font-size: 80%;
+  margin-right: 20px;
+}
+

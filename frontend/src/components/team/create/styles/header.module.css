@@ -1,0 +1,10 @@
+.newTeamHeader{
+  margin-bottom: 10px;
+  /* border-bottom: 2px solid var(--bg-5); */
+  padding: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+.newTeamTemplate{
+  margin-left: 20px;
+}

@@ -1,0 +1,143 @@
+.queryContainer{
+  background: #000;
+  background: var(--bg-7);
+  border-radius: 7px;
+  padding: 10px;
+  height: fit-content;
+}
+.queryTitle{
+  padding: 0 20px 15px 20px;
+}
+.queryBox{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+.filterQuery{
+  float: right;
+  transform: rotate(90deg);
+}
+.progressBarContaienr{
+  width: 90px;
+  text-align: center;
+  margin: auto;
+}
+.progressBarParent{
+  height: 90px;
+  width: 90px;
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+  background: #3f555e;
+}.progressBar{
+  height: 90px;
+  width: 90px;
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+  background: conic-gradient(red 265deg, transparent 0deg);
+  /* background: conic-gradient(yellow 265deg, transparent 0deg);
+  background: conic-gradient(#2097b2 265deg, transparent 0deg); */
+  /* background: lightseagreen; */
+}.progressBarChild{
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  background: #000;
+  background: var(--bg-7);
+  display: grid;
+  place-items: center;
+  font-size: 80%;
+}
+.queryTag{
+  display: inline-flex;
+  margin-bottom: 12px;
+  place-items: center;
+  width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.circle{
+  height: 90px;
+  width: 90px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circleParent{
+  height: 90px;
+  width: 90px;
+  background: var(--bg-3);
+  border-radius: 100%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circleChild{
+  height: 55px;
+  width: 55px;
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  background: var(--bg-10);
+  justify-content: center;
+  font-size: 70%;
+}
+.circleContainer{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+} */
